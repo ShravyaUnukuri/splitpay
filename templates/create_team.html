@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Team - SplitPay</title>
+  <style>
+    body { font-family: Arial; padding: 40px; background: #f4f6f9; }
+    .container { max-width: 500px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 8px; }
+    button { background: #10b981; color: white; padding: 12px; border: none; border-radius: 8px; cursor: pointer; width: 100%; }
+    a { display: block; margin-top: 20px; color: #4f46e5; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Create a New Team</h2>
+    <form method="POST">
+      <input type="text" name="team_name" placeholder="Enter team name" required />
+      <button type="submit">Create Team</button>
+    </form>
+    <a href="/dashboard">Back to Dashboard</a>
+  </div>
+</body>
+</html>
